@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#184400"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="89dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <TextView
+            android:id="@+id/ItemContacto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#7C2EF32E"
+            android:text="@string/txt_usuario"
+            android:textAlignment="center"
+            android:textColor="#FFFEFE"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
